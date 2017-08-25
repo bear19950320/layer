@@ -1,0 +1,10 @@
+[core]
+	bare = true
+	repositoryformatversion = 0
+	filemode = false
+	symlinks = false
+	ignorecase = true
+[remote "master"]
+	url = https://git.oschina.net/bearcarrey/layer.git
+	fetch = +refs/heads/*:refs/remotes/master/*
+	pushurl = https://git.oschina.net/bearcarrey/layer.git
